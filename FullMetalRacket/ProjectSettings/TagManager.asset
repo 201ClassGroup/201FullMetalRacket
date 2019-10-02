@@ -12,6 +12,7 @@ TagManager:
   - Player1
   - Wall
   - BackWall
+  - Block
   layers:
   - Default
   - TransparentFX
