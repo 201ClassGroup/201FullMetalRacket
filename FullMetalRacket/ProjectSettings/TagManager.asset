@@ -11,6 +11,7 @@ TagManager:
   - Pickup
   - Player1
   - Wall
+  - BackWall
   layers:
   - Default
   - TransparentFX
