@@ -802,7 +802,7 @@ GameObject:
   - component: {fileID: 1420916878}
   m_Layer: 0
   m_Name: Player 2
-  m_TagString: Player2
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1217,9 +1217,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 1992094777}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d8f0bfabf363d4ec5993fbd4f9908ad8, type: 3}
+  m_Script: {fileID: 11500000, guid: 483d7cd14a640f64dac34511ebb96508, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   rigidbody2D: {fileID: 0}
-  direction: {x: 1, y: 0}
+  direction: {x: 0, y: 1}
+  speed: 10
   relativeToRotation: 1

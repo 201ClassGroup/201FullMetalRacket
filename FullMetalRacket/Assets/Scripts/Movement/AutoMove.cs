@@ -9,6 +9,7 @@ public class AutoMove : Physics2DObject
 	// don't forget they can be negative too!
 	public Vector2 direction = new Vector2(1f, 0f);
 
+    public float speed;
 
 	//is the push relative or absolute to the world?
 	public bool relativeToRotation = true;
@@ -19,11 +20,11 @@ public class AutoMove : Physics2DObject
 	{
 		if(relativeToRotation)
 		{
-			rigidbody2D.AddRelativeForce(direction * 2f);
+			rigidbody2D.AddRelativeForce(direction * speed);
 		}
 		else
 		{
-			rigidbody2D.AddForce(direction * 2f);
+			rigidbody2D.AddForce(direction * speed);
 		}
 	}
 
