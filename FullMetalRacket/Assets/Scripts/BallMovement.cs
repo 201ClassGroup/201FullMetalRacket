@@ -10,7 +10,7 @@ public class BallMovement : AutoMove
     {
         GameObject collidedObject = collision.gameObject;
 
-        if (collidedObject.CompareTag("Player"))
+        if (collidedObject.CompareTag("Player") || collidedObject.CompareTag("BackWall") )
         {
             ReversalMovement();
         }
@@ -18,9 +18,10 @@ public class BallMovement : AutoMove
         {
             BounceOffWallMovement();
         }
-        else if (collidedObject.CompareTag("BackWall"))
+        else if ( collidedObject.CompareTag("Block"))
         {
             ReversalMovement();
+            collidedObject.GetComponent<BlockScript>().AddHit();
         }
 
     }
@@ -30,6 +31,9 @@ public class BallMovement : AutoMove
 
         direction.x = randomTurn;
         direction.y *= -1;
+
+        GetComponent<Rigidbody2D>().AddForce(direction*speed, ForceMode2D.Impulse);
+
     }
 
 
