@@ -9,6 +9,8 @@ public class BlockScript : MonoBehaviour
     public enum StateBlock {full = 3, hurt = 2, broken = 1, broke = 0  };
     public StateBlock blockState;
 
+    [Tooltip("This uses 3 Materials for the state of the block, Full, half, about to break")]
+    public Material[] blockStateMaterials;
 
     // Start is called before the first frame update
     void Start()
@@ -24,15 +26,20 @@ public class BlockScript : MonoBehaviour
         {
             case (int)StateBlock.full:
                 {
+                    if (blockStateMaterials[2] != null)
+                        gameObject.GetComponent<MeshRenderer>().material = blockStateMaterials[2];
                     break;
                 }
             case (int)StateBlock.hurt:
                 {
+                    if (blockStateMaterials[1] != null)
+                        gameObject.GetComponent<MeshRenderer>().material = blockStateMaterials[1];
                     break;
                 }
             case (int)StateBlock.broken:
                 {
-
+                    if (blockStateMaterials[0] != null)
+                        gameObject.GetComponent<MeshRenderer>().material = blockStateMaterials[0];
                     break;
                 }
             case (int)StateBlock.broke:

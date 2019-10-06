@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class BallMovement : AutoMove
 {
-
+    float stuckTimer;
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
@@ -25,6 +25,26 @@ public class BallMovement : AutoMove
         }
 
     }
+
+    private void OnCollisionStay2D(Collision2D collision)
+    {
+        stuckTimer += Time.deltaTime;
+
+        if (collision.gameObject.CompareTag("Block") || collision.gameObject.CompareTag("BackWall"))
+        {
+            if (stuckTimer >= .05)
+            {
+                ReversalMovement();
+            }
+        }
+
+    }
+
+    private void OnCollisionExit2D(Collision2D collision)
+    {
+        stuckTimer = 0;
+    }
+
     public void ReversalMovement()
     {
         float randomTurn = Random.Range(-.5f, .5f);
