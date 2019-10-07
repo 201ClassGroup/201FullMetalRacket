@@ -731,7 +731,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5739525d36d134448ad2d8c57a06ddf7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hitPoints: 3
+  hitPoints: 2
   blockState: 0
   blockStateMaterials: []
 --- !u!61 &184129586
@@ -804,7 +804,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5739525d36d134448ad2d8c57a06ddf7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hitPoints: 3
+  hitPoints: 2
   blockState: 0
   blockStateMaterials: []
 --- !u!1 &209610329
@@ -845,7 +845,7 @@ Transform:
   - {fileID: 1029627975}
   - {fileID: 877259118}
   m_Father: {fileID: 0}
-  m_RootOrder: 7
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &211824550
 PrefabInstance:
@@ -1109,7 +1109,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5739525d36d134448ad2d8c57a06ddf7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hitPoints: 3
+  hitPoints: 2
   blockState: 0
   blockStateMaterials: []
 --- !u!1001 &286234140
@@ -1224,7 +1224,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5739525d36d134448ad2d8c57a06ddf7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hitPoints: 3
+  hitPoints: 2
   blockState: 0
   blockStateMaterials: []
 --- !u!61 &304946966
@@ -1491,7 +1491,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5739525d36d134448ad2d8c57a06ddf7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hitPoints: 3
+  hitPoints: 2
   blockState: 0
   blockStateMaterials: []
 --- !u!4 &369500922 stripped
@@ -1662,7 +1662,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5739525d36d134448ad2d8c57a06ddf7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hitPoints: 3
+  hitPoints: 2
   blockState: 0
   blockStateMaterials: []
 --- !u!1 &443048867
@@ -1827,7 +1827,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5739525d36d134448ad2d8c57a06ddf7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hitPoints: 3
+  hitPoints: 2
   blockState: 0
   blockStateMaterials: []
 --- !u!61 &477008368
@@ -1912,7 +1912,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5739525d36d134448ad2d8c57a06ddf7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hitPoints: 3
+  hitPoints: 2
   blockState: 0
   blockStateMaterials: []
 --- !u!1 &515013518 stripped
@@ -1959,7 +1959,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5739525d36d134448ad2d8c57a06ddf7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hitPoints: 3
+  hitPoints: 2
   blockState: 0
   blockStateMaterials: []
 --- !u!1 &518652062 stripped
@@ -2006,7 +2006,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5739525d36d134448ad2d8c57a06ddf7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hitPoints: 3
+  hitPoints: 2
   blockState: 0
   blockStateMaterials: []
 --- !u!1 &534669902
@@ -2115,7 +2115,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5739525d36d134448ad2d8c57a06ddf7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hitPoints: 3
+  hitPoints: 2
   blockState: 0
   blockStateMaterials: []
 --- !u!61 &595816086
@@ -2288,7 +2288,7 @@ Transform:
   - {fileID: 1219882200}
   - {fileID: 1596314235}
   m_Father: {fileID: 0}
-  m_RootOrder: 9
+  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &683743674 stripped
 GameObject:
@@ -2308,7 +2308,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5739525d36d134448ad2d8c57a06ddf7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hitPoints: 3
+  hitPoints: 2
   blockState: 0
   blockStateMaterials: []
 --- !u!61 &683743678
@@ -2355,7 +2355,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5739525d36d134448ad2d8c57a06ddf7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hitPoints: 3
+  hitPoints: 2
   blockState: 0
   blockStateMaterials: []
 --- !u!61 &719469464
@@ -2402,7 +2402,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5739525d36d134448ad2d8c57a06ddf7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hitPoints: 3
+  hitPoints: 2
   blockState: 0
   blockStateMaterials: []
 --- !u!61 &723545565
@@ -2449,7 +2449,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5739525d36d134448ad2d8c57a06ddf7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hitPoints: 3
+  hitPoints: 2
   blockState: 0
   blockStateMaterials: []
 --- !u!61 &730542540
@@ -2522,7 +2522,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5739525d36d134448ad2d8c57a06ddf7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hitPoints: 3
+  hitPoints: 2
   blockState: 0
   blockStateMaterials: []
 --- !u!1 &748750273
@@ -2563,7 +2563,7 @@ Transform:
   - {fileID: 449167416}
   - {fileID: 1631476938}
   m_Father: {fileID: 0}
-  m_RootOrder: 10
+  m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &760895477
 PrefabInstance:
@@ -2677,7 +2677,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5739525d36d134448ad2d8c57a06ddf7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hitPoints: 3
+  hitPoints: 2
   blockState: 0
   blockStateMaterials: []
 --- !u!61 &786032755
@@ -2956,9 +2956,124 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5739525d36d134448ad2d8c57a06ddf7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hitPoints: 3
+  hitPoints: 2
   blockState: 0
   blockStateMaterials: []
+--- !u!1 &840804004
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 840804006}
+  - component: {fileID: 840804008}
+  - component: {fileID: 840804009}
+  - component: {fileID: 840804007}
+  - component: {fileID: 840804005}
+  m_Layer: 0
+  m_Name: PowerUpSpawner
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &840804005
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 840804004}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 96f65a194a6d04c559f3e4f3a2ab77c7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  prefabToCreate: {fileID: 6518833126613001558, guid: db560019aec900449b114381609287f1,
+    type: 3}
+  newPosition: {x: -1, y: 0}
+  relativeToThisObject: 1
+--- !u!4 &840804006
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 840804004}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 15.99, y: -9.77, z: -0.12}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 12
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!50 &840804007
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 840804004}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 1
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
+--- !u!114 &840804008
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 840804004}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 66eec6aefb56e4015b605a5088d6e109, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  rigidbody2D: {fileID: 0}
+  speed: 5
+  directionChangeInterval: 3
+  orientToDirection: 0
+  lookAxis: 0
+  waypoints:
+  - {x: 16.076565, y: 8.685196}
+--- !u!114 &840804009
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 840804004}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 81ae04e11dc2a46608bac56f852ff89e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  actions:
+  - {fileID: 840804005}
+  useCustomActions: 0
+  customActions:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+  happenOnlyOnce: 0
+  filterByTag: 0
+  filterTag: Player
+  initialDelay: 1
+  frequency: 10
 --- !u!4 &854778265 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 350226415069172048, guid: 15ef8fd3d029e4d45933eff41e25c766,
@@ -3109,7 +3224,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5739525d36d134448ad2d8c57a06ddf7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hitPoints: 3
+  hitPoints: 2
   blockState: 0
   blockStateMaterials: []
 --- !u!4 &886349059 stripped
@@ -3236,7 +3351,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5739525d36d134448ad2d8c57a06ddf7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hitPoints: 3
+  hitPoints: 2
   blockState: 0
   blockStateMaterials: []
 --- !u!61 &934232727
@@ -3321,7 +3436,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5739525d36d134448ad2d8c57a06ddf7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hitPoints: 3
+  hitPoints: 2
   blockState: 0
   blockStateMaterials: []
 --- !u!1 &1015061145 stripped
@@ -3368,7 +3483,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5739525d36d134448ad2d8c57a06ddf7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hitPoints: 3
+  hitPoints: 2
   blockState: 0
   blockStateMaterials: []
 --- !u!1001 &1020384770
@@ -3689,7 +3804,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5739525d36d134448ad2d8c57a06ddf7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hitPoints: 3
+  hitPoints: 2
   blockState: 0
   blockStateMaterials: []
 --- !u!61 &1084148493
@@ -3768,7 +3883,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5739525d36d134448ad2d8c57a06ddf7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hitPoints: 3
+  hitPoints: 2
   blockState: 0
   blockStateMaterials: []
 --- !u!1 &1128532560 stripped
@@ -3815,7 +3930,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5739525d36d134448ad2d8c57a06ddf7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hitPoints: 3
+  hitPoints: 2
   blockState: 0
   blockStateMaterials: []
 --- !u!1 &1151030806 stripped
@@ -3862,7 +3977,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5739525d36d134448ad2d8c57a06ddf7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hitPoints: 3
+  hitPoints: 2
   blockState: 0
   blockStateMaterials: []
 --- !u!1001 &1182623699
@@ -4195,6 +4310,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1211719472}
   - component: {fileID: 1211719469}
+  - component: {fileID: 1211719470}
   - component: {fileID: 1211719468}
   - component: {fileID: 1211719473}
   m_Layer: 0
@@ -4243,6 +4359,19 @@ MonoBehaviour:
   movementType: 1
   orientToDirection: 0
   lookAxis: 0
+--- !u!114 &1211719470
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1211719467}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e8b221ac39a3c66458fc11ce141c0560, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  powerUpAffect: 0
 --- !u!4 &1211719472
 Transform:
   m_ObjectHideFlags: 0
@@ -4496,7 +4625,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5739525d36d134448ad2d8c57a06ddf7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hitPoints: 3
+  hitPoints: 2
   blockState: 0
   blockStateMaterials: []
 --- !u!61 &1243871955
@@ -4543,7 +4672,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5739525d36d134448ad2d8c57a06ddf7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hitPoints: 3
+  hitPoints: 2
   blockState: 0
   blockStateMaterials: []
 --- !u!1001 &1249080215
@@ -4708,7 +4837,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5739525d36d134448ad2d8c57a06ddf7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hitPoints: 3
+  hitPoints: 2
   blockState: 0
   blockStateMaterials: []
 --- !u!1001 &1308759675
@@ -4849,7 +4978,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5739525d36d134448ad2d8c57a06ddf7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hitPoints: 3
+  hitPoints: 2
   blockState: 0
   blockStateMaterials: []
 --- !u!1 &1338580769 stripped
@@ -4896,7 +5025,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5739525d36d134448ad2d8c57a06ddf7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hitPoints: 3
+  hitPoints: 2
   blockState: 0
   blockStateMaterials: []
 --- !u!1001 &1339696388
@@ -5581,7 +5710,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5739525d36d134448ad2d8c57a06ddf7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hitPoints: 3
+  hitPoints: 2
   blockState: 0
   blockStateMaterials: []
 --- !u!61 &1379070915
@@ -5654,7 +5783,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5739525d36d134448ad2d8c57a06ddf7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hitPoints: 3
+  hitPoints: 2
   blockState: 0
   blockStateMaterials: []
 --- !u!1 &1410899473 stripped
@@ -5701,7 +5830,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5739525d36d134448ad2d8c57a06ddf7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hitPoints: 3
+  hitPoints: 2
   blockState: 0
   blockStateMaterials: []
 --- !u!1 &1420916872
@@ -5715,6 +5844,7 @@ GameObject:
   - component: {fileID: 1420916877}
   - component: {fileID: 1420916875}
   - component: {fileID: 1420916874}
+  - component: {fileID: 1420916878}
   - component: {fileID: 1420916873}
   - component: {fileID: 1420916876}
   m_Layer: 0
@@ -5841,6 +5971,19 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1420916878
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1420916872}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e8b221ac39a3c66458fc11ce141c0560, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  powerUpAffect: 0
 --- !u!4 &1426502792 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 350226415069172048, guid: 15ef8fd3d029e4d45933eff41e25c766,
@@ -6048,7 +6191,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5739525d36d134448ad2d8c57a06ddf7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hitPoints: 3
+  hitPoints: 2
   blockState: 0
   blockStateMaterials: []
 --- !u!61 &1443733357
@@ -6316,7 +6459,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5739525d36d134448ad2d8c57a06ddf7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hitPoints: 3
+  hitPoints: 2
   blockState: 0
   blockStateMaterials: []
 --- !u!61 &1494280651
@@ -6363,7 +6506,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5739525d36d134448ad2d8c57a06ddf7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hitPoints: 3
+  hitPoints: 2
   blockState: 0
   blockStateMaterials: []
 --- !u!61 &1511918419
@@ -6410,7 +6553,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5739525d36d134448ad2d8c57a06ddf7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hitPoints: 3
+  hitPoints: 2
   blockState: 0
   blockStateMaterials: []
 --- !u!61 &1545988455
@@ -6663,7 +6806,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5739525d36d134448ad2d8c57a06ddf7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hitPoints: 3
+  hitPoints: 2
   blockState: 0
   blockStateMaterials: []
 --- !u!61 &1629566603
@@ -6836,7 +6979,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5739525d36d134448ad2d8c57a06ddf7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hitPoints: 3
+  hitPoints: 2
   blockState: 0
   blockStateMaterials: []
 --- !u!4 &1660372042 stripped
@@ -6957,7 +7100,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5739525d36d134448ad2d8c57a06ddf7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hitPoints: 3
+  hitPoints: 2
   blockState: 0
   blockStateMaterials: []
 --- !u!61 &1671957621
@@ -7130,78 +7273,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5739525d36d134448ad2d8c57a06ddf7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hitPoints: 3
+  hitPoints: 2
   blockState: 0
   blockStateMaterials: []
---- !u!1 &1679274371
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1679274373}
-  - component: {fileID: 1679274372}
-  m_Layer: 0
-  m_Name: Spot Light
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!108 &1679274372
-Light:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1679274371}
-  m_Enabled: 1
-  serializedVersion: 8
-  m_Type: 0
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Intensity: 5.95
-  m_Range: 10
-  m_SpotAngle: 78.46
-  m_CookieSize: 10
-  m_Shadows:
-    m_Type: 0
-    m_Resolution: -1
-    m_CustomResolution: -1
-    m_Strength: 1
-    m_Bias: 0.05
-    m_NormalBias: 0.4
-    m_NearPlane: 0.2
-  m_Cookie: {fileID: 0}
-  m_DrawHalo: 0
-  m_Flare: {fileID: 0}
-  m_RenderMode: 0
-  m_CullingMask:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_Lightmapping: 4
-  m_LightShadowCasterMode: 0
-  m_AreaSize: {x: 1, y: 1}
-  m_BounceIntensity: 1
-  m_ColorTemperature: 6570
-  m_UseColorTemperature: 0
-  m_ShadowRadius: 0
-  m_ShadowAngle: 0
---- !u!4 &1679274373
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1679274371}
-  m_LocalRotation: {x: 0.31936976, y: -0, z: -0, w: 0.9476302}
-  m_LocalPosition: {x: 7.37, y: -0.8299997, z: -3.31}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 6
-  m_LocalEulerAnglesHint: {x: 37.25, y: 0, z: 0}
 --- !u!1001 &1686140288
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -7340,7 +7414,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5739525d36d134448ad2d8c57a06ddf7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hitPoints: 3
+  hitPoints: 2
   blockState: 0
   blockStateMaterials: []
 --- !u!4 &1704471855 stripped
@@ -7373,7 +7447,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5739525d36d134448ad2d8c57a06ddf7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hitPoints: 3
+  hitPoints: 2
   blockState: 0
   blockStateMaterials: []
 --- !u!61 &1716639662
@@ -7426,7 +7500,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5739525d36d134448ad2d8c57a06ddf7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hitPoints: 3
+  hitPoints: 2
   blockState: 0
   blockStateMaterials: []
 --- !u!61 &1741213574
@@ -7499,7 +7573,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5739525d36d134448ad2d8c57a06ddf7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hitPoints: 3
+  hitPoints: 2
   blockState: 0
   blockStateMaterials: []
 --- !u!1001 &1748409514
@@ -7708,7 +7782,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5739525d36d134448ad2d8c57a06ddf7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hitPoints: 3
+  hitPoints: 2
   blockState: 0
   blockStateMaterials: []
 --- !u!61 &1756824665
@@ -7781,7 +7855,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5739525d36d134448ad2d8c57a06ddf7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hitPoints: 3
+  hitPoints: 2
   blockState: 0
   blockStateMaterials: []
 --- !u!4 &1783295083 stripped
@@ -7908,7 +7982,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5739525d36d134448ad2d8c57a06ddf7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hitPoints: 3
+  hitPoints: 2
   blockState: 0
   blockStateMaterials: []
 --- !u!61 &1813107451
@@ -7975,7 +8049,7 @@ Transform:
   - {fileID: 1827927838}
   - {fileID: 1783295083}
   m_Father: {fileID: 0}
-  m_RootOrder: 11
+  m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &1827927838 stripped
 Transform:
@@ -8317,7 +8391,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5739525d36d134448ad2d8c57a06ddf7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hitPoints: 3
+  hitPoints: 2
   blockState: 0
   blockStateMaterials: []
 --- !u!61 &1845967009
@@ -8584,7 +8658,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5739525d36d134448ad2d8c57a06ddf7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hitPoints: 3
+  hitPoints: 2
   blockState: 0
   blockStateMaterials: []
 --- !u!1001 &1889224063
@@ -8725,7 +8799,7 @@ Transform:
   - {fileID: 1678014727}
   - {fileID: 1258904688}
   m_Father: {fileID: 0}
-  m_RootOrder: 12
+  m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1920960494 stripped
 GameObject:
@@ -8771,7 +8845,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5739525d36d134448ad2d8c57a06ddf7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hitPoints: 3
+  hitPoints: 2
   blockState: 0
   blockStateMaterials: []
 --- !u!1 &1928953902 stripped
@@ -8792,7 +8866,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5739525d36d134448ad2d8c57a06ddf7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hitPoints: 3
+  hitPoints: 2
   blockState: 0
   blockStateMaterials: []
 --- !u!61 &1928953906
@@ -8865,7 +8939,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5739525d36d134448ad2d8c57a06ddf7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hitPoints: 3
+  hitPoints: 2
   blockState: 0
   blockStateMaterials: []
 --- !u!1 &1939300594 stripped
@@ -8886,7 +8960,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5739525d36d134448ad2d8c57a06ddf7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hitPoints: 3
+  hitPoints: 2
   blockState: 0
   blockStateMaterials: []
 --- !u!61 &1939300598
@@ -8933,7 +9007,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5739525d36d134448ad2d8c57a06ddf7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hitPoints: 3
+  hitPoints: 2
   blockState: 0
   blockStateMaterials: []
 --- !u!61 &1943029242
@@ -9000,7 +9074,7 @@ Transform:
   - {fileID: 276970099}
   - {fileID: 466122007}
   m_Father: {fileID: 0}
-  m_RootOrder: 8
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1973299675
 PrefabInstance:
@@ -9212,7 +9286,7 @@ GameObject:
   - component: {fileID: 1992094783}
   m_Layer: 0
   m_Name: Ball
-  m_TagString: Untagged
+  m_TagString: Ball
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9329,6 +9403,7 @@ MonoBehaviour:
   direction: {x: 0, y: 1}
   speed: 10
   relativeToRotation: 1
+  gameTimer: 0
 --- !u!1001 &1994376985
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -9441,7 +9516,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5739525d36d134448ad2d8c57a06ddf7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hitPoints: 3
+  hitPoints: 2
   blockState: 0
   blockStateMaterials: []
 --- !u!61 &2016173795
@@ -9582,7 +9657,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5739525d36d134448ad2d8c57a06ddf7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hitPoints: 3
+  hitPoints: 2
   blockState: 0
   blockStateMaterials: []
 --- !u!61 &2026622757
@@ -9655,7 +9730,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5739525d36d134448ad2d8c57a06ddf7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hitPoints: 3
+  hitPoints: 2
   blockState: 0
   blockStateMaterials: []
 --- !u!1 &2074641148 stripped
@@ -9702,7 +9777,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5739525d36d134448ad2d8c57a06ddf7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hitPoints: 3
+  hitPoints: 2
   blockState: 0
   blockStateMaterials: []
 --- !u!4 &2083774306 stripped

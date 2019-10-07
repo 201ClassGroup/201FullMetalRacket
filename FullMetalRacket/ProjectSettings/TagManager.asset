@@ -13,6 +13,8 @@ TagManager:
   - Wall
   - BackWall
   - Block
+  - PowerUp
+  - Ball
   layers:
   - Default
   - TransparentFX

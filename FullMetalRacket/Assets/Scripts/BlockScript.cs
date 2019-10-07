@@ -55,4 +55,12 @@ public class BlockScript : MonoBehaviour
         hitPoints--;
     }
 
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        if (collision.gameObject.CompareTag("Ball"))
+        {
+            AddHit();
+        }
+    }
+
 }
