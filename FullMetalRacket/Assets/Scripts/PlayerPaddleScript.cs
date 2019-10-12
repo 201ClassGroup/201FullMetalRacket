@@ -4,8 +4,10 @@ using UnityEngine;
 
 public class PlayerPaddleScript : MonoBehaviour
 {
-
+    public Rigidbody2D tempBall;
     public int powerUpAffect;
+
+    public float powerUpTimer = 0;
 
     // Start is called before the first frame update
     void Start()
@@ -20,14 +22,22 @@ public class PlayerPaddleScript : MonoBehaviour
         {
             case 1:
                 {
+                    if (powerUpTimer < 10f)
+                    {
+                        powerUpTimer += Time.deltaTime;
+                        BigPaddlePowerUp();
+                    }
+                    else ResetTimer();
                     break;
                 }
             case 2:
                 {
+                    ShootExtraBall();
                     break;
                 }
             case 3:
                 {
+
                     break;
                 }
             case 4:
@@ -36,11 +46,48 @@ public class PlayerPaddleScript : MonoBehaviour
                 }
             case 5:
                 {
+
+                    break;
+                }
+            default:
+                {
+                    powerUpTimer = 0;
                     break;
                 }
         }
 
 
+    }
+
+    void ShootExtraBall()
+    {
+        if (Input.GetKeyDown(KeyCode.S) && GetComponent<Move>().typeOfControl == Enums.KeyGroups.WASD)
+        {
+            Rigidbody2D clone;
+            clone = Instantiate(tempBall, transform.position, transform.rotation);
+            powerUpAffect = 0;
+        }
+        else if (Input.GetKeyDown(KeyCode.DownArrow) && GetComponent<Move>().typeOfControl == Enums.KeyGroups.ArrowKeys)
+        {
+            Rigidbody2D clone;
+            clone = Instantiate(tempBall, transform.position, transform.rotation);
+            clone.GetComponent<TempBallScript>().direction.y = -1;
+            powerUpAffect = 0;
+        }
+
+    }
+
+    void BigPaddlePowerUp()
+    {
+
+        this.transform.localScale.Set(5, 1, 1);
+        
+    }
+
+    void ResetTimer()
+    {
+        powerUpTimer = 0;
+        powerUpAffect = 0;
     }
 
     private void OnCollisionEnter2D(Collision2D collision)

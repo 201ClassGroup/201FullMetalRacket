@@ -7,6 +7,12 @@ public class BallMovement : AutoMove
     float stuckTimer;
     public float gameTimer = 0;
 
+    public void Start()
+    {
+        direction.x = Random.Range(-.5f,.5f);
+        direction.y = Random.Range(-1f,1f);
+    }
+
     public void Update()
     {
         gameTimer += Time.deltaTime;
