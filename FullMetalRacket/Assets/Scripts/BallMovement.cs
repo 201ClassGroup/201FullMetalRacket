@@ -10,7 +10,7 @@ public class BallMovement : AutoMove
     public void Start()
     {
         direction.x = Random.Range(-.5f,.5f);
-        direction.y = Random.Range(-1f,1f);
+        //direction.y = (int)Mathf.(Random.Range(-1f,1f));
     }
 
     public void Update()

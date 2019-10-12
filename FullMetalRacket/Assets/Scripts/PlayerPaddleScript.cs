@@ -27,7 +27,12 @@ public class PlayerPaddleScript : MonoBehaviour
                         powerUpTimer += Time.deltaTime;
                         BigPaddlePowerUp();
                     }
-                    else ResetTimer();
+                    else
+                    {
+                        ResetTimer();
+                        this.transform.localScale = new Vector3(3, 1, 1);
+
+                    }
                     break;
                 }
             case 2:
@@ -70,8 +75,7 @@ public class PlayerPaddleScript : MonoBehaviour
         else if (Input.GetKeyDown(KeyCode.DownArrow) && GetComponent<Move>().typeOfControl == Enums.KeyGroups.ArrowKeys)
         {
             Rigidbody2D clone;
-            clone = Instantiate(tempBall, transform.position, transform.rotation);
-            clone.GetComponent<TempBallScript>().direction.y = -1;
+            clone = Instantiate(tempBall, new Vector3 (transform.position.x, transform.position.y-1, transform.position.z), transform.rotation);
             powerUpAffect = 0;
         }
 
@@ -80,7 +84,7 @@ public class PlayerPaddleScript : MonoBehaviour
     void BigPaddlePowerUp()
     {
 
-        this.transform.localScale.Set(5, 1, 1);
+        this.transform.localScale = new Vector3(5, 1, 1);
         
     }
 

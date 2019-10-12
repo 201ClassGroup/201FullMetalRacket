@@ -6,7 +6,7 @@ public class BlockScript : MonoBehaviour
 {
     public int hitPoints;
 
-    public enum StateBlock {full = 3, hurt = 2, broken = 1, broke = 0  };
+    public enum StateBlock {full = 2, broken = 1, broke = 0  };
     public StateBlock blockState;
 
     [Tooltip("This uses 3 Materials for the state of the block, Full, half, about to break")]
@@ -26,14 +26,8 @@ public class BlockScript : MonoBehaviour
         {
             case (int)StateBlock.full:
                 {
-                    if (blockStateMaterials[2] != null)
-                        gameObject.GetComponent<MeshRenderer>().material = blockStateMaterials[2];
-                    break;
-                }
-            case (int)StateBlock.hurt:
-                {
-                    if (blockStateMaterials[1] != null)
-                        gameObject.GetComponent<MeshRenderer>().material = blockStateMaterials[1];
+                   // if (blockStateMaterials[2] != null)
+                    //    gameObject.GetComponent<MeshRenderer>().material = blockStateMaterials[2];
                     break;
                 }
             case (int)StateBlock.broken:
