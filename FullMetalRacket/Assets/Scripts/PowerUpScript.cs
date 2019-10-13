@@ -4,12 +4,12 @@ using UnityEngine;
 
 public class PowerUpScript : MonoBehaviour
 {
-    public int powerUpType;
+    public int powerUpType =1;
 
     // Start is called before the first frame update
     void Start()
     {
-        powerUpType = (int)Random.Range(1,5);
+        //powerUpType = (int)Random.Range(1,5);
     }
 
     // Update is called once per frame

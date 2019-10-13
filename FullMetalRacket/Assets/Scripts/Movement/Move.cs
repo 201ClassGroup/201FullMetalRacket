@@ -25,7 +25,9 @@ public class Move : Physics2DObject
 
 	// Update gets called every frame
 	void Update ()
-	{	
+	{
+        if (Input.GetKeyDown(KeyCode.Escape))
+            FindObjectOfType<SceneSelection>().ReloadLevel();
 		// Moving with the arrow keys
 		if(typeOfControl == Enums.KeyGroups.ArrowKeys)
 		{

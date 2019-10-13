@@ -38,6 +38,7 @@ public class BlockScript : MonoBehaviour
                 }
             case (int)StateBlock.broke:
                 {
+                    FindObjectOfType<AudioManager>().Play("BlockDeath");
                     Destroy(gameObject);
                     break;
                 }
@@ -47,6 +48,7 @@ public class BlockScript : MonoBehaviour
     public void AddHit()
     {
         hitPoints--;
+        FindObjectOfType<AudioManager>().Play("BlockHit");
     }
 
     private void OnCollisionEnter2D(Collision2D collision)

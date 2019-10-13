@@ -31,6 +31,8 @@ public class BallMovement : AutoMove
 
         if (collidedObject.CompareTag("Player") || collidedObject.CompareTag("BackWall") )
         {
+            if(this.gameObject.CompareTag("Ball"))
+                FindObjectOfType<AudioManager>().Play("PaddleHit");
             ReversalMovement();
         }
         else if (collidedObject.CompareTag("Wall"))
@@ -57,6 +59,7 @@ public class BallMovement : AutoMove
             }
         }
 
+
     }
 
     private void OnCollisionExit2D(Collision2D collision)
@@ -80,9 +83,18 @@ public class BallMovement : AutoMove
     {
         direction.x *= -1;
 
-        direction.x += .5f;
+        direction.x += .75f;
         //this adds a better bounce off the wall
         GetComponent<Rigidbody2D>().AddForce(direction * speed, ForceMode2D.Impulse);
+    }
+
+    public void BiggerBounceOffWallMovement()
+    {
+        direction.x *= -1;
+
+        direction.x += .75f;
+        //this adds a better bounce off the wall
+        GetComponent<Rigidbody2D>().AddForce(direction * (speed / 3), ForceMode2D.Impulse);
     }
 
 }// end of class
