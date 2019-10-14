@@ -18,9 +18,14 @@ public class GameManager : MonoBehaviour
             {
                 playerOneBlocks.Remove(playerOneBlocks[i]);
             }
+        }
+
+        for (int i = 0; i < playerTwoBlocks.Count; i++)
+        {
+            
             if (playerTwoBlocks[i] == null)
             {
-                playerOneBlocks.Remove(playerOneBlocks[i]);
+                playerTwoBlocks.Remove(playerTwoBlocks[i]);
             }
         }
 
