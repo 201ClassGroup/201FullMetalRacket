@@ -86,8 +86,8 @@ MonoBehaviour:
     pitch: 1
     source: {fileID: 0}
     loop: 1
-  - name: TitleTheme
-    clip: {fileID: 8300000, guid: fc8799ddc312463408814c5c8cc58495, type: 3}
+  - name: GameStart
+    clip: {fileID: 8300000, guid: 8089fe99a53bff64a972b770846c8fe0, type: 3}
     volume: 1
     pitch: 1
     source: {fileID: 0}

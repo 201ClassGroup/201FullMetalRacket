@@ -52,7 +52,7 @@ public class SceneSelection : MonoBehaviour
         Debug.Log("Button clicked");
         levelToLoad = gameStart; //the level to load;
         SceneManager.LoadScene(levelToLoad);
-        // anim.SetTrigger("FadeOut");
+        FindObjectOfType<AudioManager>().Play("GameStart");
     }    
 
     public void QuitToMenu()
